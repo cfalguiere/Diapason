@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+  <instances>
+    <instance node="WC_hewqalive_node" server="WC_hewqalive_server1" />
+  </instances>
+  <metrics>
+    <metric label="JVM_Runtime.HeapSize" id="JVM_Runtime.HeapSize" 
+        path="JVM Runtime.HeapSize" 
+        type="BoundedRangeStatistic" attribute="value" />
+    <metric label="Thread_Pools.WebContainer.PoolSize" id="Thread_Pools.WebContainer.PoolSize" 
+        path="Thread Pools.WebContainer.PoolSize" 
+        type="BoundedRangeStatistic" attribute="value" />
+     </metrics>
+</config>
+
