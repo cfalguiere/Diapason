@@ -1,0 +1,6 @@
+set CURRENT_DIR=%~dp0
+echo %CURRENT_DIR%
+
+set DIAPASON_HOME=%CURRENT_DIR%
+set R_HOME=%DIAPASON_HOME%\..\R-2.9.0-win32
+%R_HOME%\bin\Rgui.exe
