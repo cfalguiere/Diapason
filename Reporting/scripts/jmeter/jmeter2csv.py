@@ -24,7 +24,7 @@ class JMeterSampleHandler(ContentHandler):
     """
     record = {}
     jmeterAttributes = ['ts','t','lt','s','lb','rc','rm','tn','dt','by','na','ng',
-        'search__phrase','productId','productUrl','catLevel1Url','catLevel2Url']
+        'search__phrase'] #search__phrase, sample extra attribute. property: sample_variables=search_phrase
     recordAttributes = ['st', 'id','pid','tsdate','tstime','tsms','wh'] + jmeterAttributes
     transactionCount = 0
     pageCount = 0
@@ -55,7 +55,7 @@ class JMeterSampleHandler(ContentHandler):
         self.index = []
 
     def writeRecord(self):
-        if not self.record['st'] == 'T':
+        if self.record['st'] == 'D':
             return
 
         if (self.transactionCount % 5000) == 0:
@@ -66,17 +66,16 @@ class JMeterSampleHandler(ContentHandler):
             record.append(self.record[attr])
 
         label = self.record['lb']
+        sample_type = self.record['st']
         #entry = filter(lambda entry: entry["name"]==label, self.index)
-        entries = [x for x in self.index if x["name"] == label]
-        #print("files %s" % entries)
-        i = len(entries)
-        #print(i)
+        entries = [x for x in self.index if (x["name"] == label and x["sample_type"] == sample_type) ]
         new_file = False
-        if i<1:
+        if len(entries)<1:
             #print("new label %s" % label)
-            i = len(self.index)+1
-            file_name = "T%d.csv" % (i)
-            self.index.append({"name":label, "file": file_name})
+            typeIndex = [x for x in self.index if (x["sample_type"] == sample_type) ]
+            i = len(typeIndex)+1
+            file_name = "%s%d.csv" % (sample_type, i)
+            self.index.append({"sample_type": sample_type, "name":label, "file": file_name})
             new_file = True
         else:
             entry = entries[0]
@@ -204,7 +203,7 @@ class JMeter2Csv:
                           quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(["name", "file"])
         for entry in index:
-            writer.writerow([entry["name"], entry["file"]])
+            writer.writerow([entry["sample_type"], entry["name"], entry["file"]])
 
         jmeterSampleHandler.closeFiles()
         
