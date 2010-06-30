@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="3095" lt="3080" ts="1263459048951" s="true" lb="TopCategories_-2_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="76220">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="3114" lt="0" ts="1263459048950" s="true" lb="01-HomePage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="76220"/>
+<httpSample t="1387" lt="1361" ts="1263459052064" s="true" lb="Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="137778">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1494" lt="0" ts="1263459052064" s="true" lb="02-Cat Outillage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="137778"/>
+<httpSample t="3381" lt="3176" ts="1263459053562" s="true" lb="Product_P" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="104812">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="3388" lt="0" ts="1263459053559" s="true" lb="03-Product TopLeft" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="104812"/>
+<httpSample t="1778" lt="1648" ts="1263459056953" s="true" lb="Cache Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="139232">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1785" lt="0" ts="1263459056951" s="true" lb="04-Cat Outillage Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="139232"/>
+<httpSample t="1949" lt="1896" ts="1263459058736" s="true" lb="Cache Product_P " rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="103923">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1951" lt="0" ts="1263459058736" s="true" lb="05-Product TopLeft Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="103923"/>
+<sample t="0" lt="0" ts="1263459060696" s="true" lb="Echantillon Débogage" rc="" rm="" tn="Thread Group 1-1" dt="text" by="779"/>
+
+<httpSample t="684" lt="671" ts="1263459636526" s="true" lb="TopCategories_-2_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="76220">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="823" lt="0" ts="1263459636525" s="true" lb="01-HomePage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="76220"/>
+<httpSample t="1159" lt="1131" ts="1263459637349" s="true" lb="Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="139025">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1187" lt="0" ts="1263459637348" s="true" lb="02-Cat Outillage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="139025"/>
+<httpSample t="408" lt="383" ts="1263459638536" s="true" lb="Product_P" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="102491">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="411" lt="0" ts="1263459638536" s="true" lb="03-Product TopLeft" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="102491"/>
+<httpSample t="1113" lt="1082" ts="1263459638948" s="true" lb="Cache Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="138240">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1124" lt="0" ts="1263459638947" s="true" lb="04-Cat Outillage Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="138240"/>
+<httpSample t="1187" lt="1163" ts="1263459640072" s="true" lb="Cache Product_P " rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="106364">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1191" lt="0" ts="1263459640071" s="true" lb="05-Product TopLeft Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="106364"/>
+<sample t="0" lt="0" ts="1263459641272" s="true" lb="Echantillon Débogage" rc="" rm="" tn="Thread Group 1-1" dt="text" by="727"/>
+
+<httpSample t="951" lt="937" ts="1263460236379" s="true" lb="TopCategories_-2_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="76220">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="970" lt="0" ts="1263460236378" s="true" lb="01-HomePage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="76220"/>
+<httpSample t="1400" lt="1370" ts="1263460237349" s="true" lb="Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="138920">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1415" lt="0" ts="1263460237349" s="true" lb="02-Cat Outillage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="138920"/>
+<httpSample t="814" lt="787" ts="1263460238765" s="true" lb="Product_P" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="104183">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="817" lt="0" ts="1263460238765" s="true" lb="03-Product TopLeft" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="104183"/>
+<httpSample t="1226" lt="1195" ts="1263460239583" s="true" lb="Cache Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="138244">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1232" lt="0" ts="1263460239582" s="true" lb="04-Cat Outillage Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="138244"/>
+<httpSample t="716" lt="692" ts="1263460240814" s="true" lb="Cache Product_P " rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="104008">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="723" lt="0" ts="1263460240814" s="true" lb="05-Product TopLeft Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="104008"/>
+<sample t="0" lt="0" ts="1263460241561" s="true" lb="Echantillon Débogage" rc="" rm="" tn="Thread Group 1-1" dt="text" by="637"/>
+
+<httpSample t="3421" lt="3406" ts="1263460842911" s="true" lb="TopCategories_-2_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="76220">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="3594" lt="0" ts="1263460842907" s="true" lb="01-HomePage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="76220"/>
+<httpSample t="1507" lt="1470" ts="1263460846503" s="true" lb="Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="138423">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1524" lt="0" ts="1263460846502" s="true" lb="02-Cat Outillage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="138423"/>
+<httpSample t="1091" lt="1058" ts="1263460848027" s="true" lb="Product_P" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="103474">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1096" lt="0" ts="1263460848026" s="true" lb="03-Product TopLeft" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="103474"/>
+<httpSample t="1336" lt="1291" ts="1263460849124" s="true" lb="Cache Category1_-2_Outillage_Main3_10201_10101" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="138727">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="1390" lt="0" ts="1263460849123" s="true" lb="04-Cat Outillage Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="138727"/>
+<httpSample t="536" lt="511" ts="1263460850515" s="true" lb="Cache Product_P " rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="102766">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="542" lt="0" ts="1263460850514" s="true" lb="05-Product TopLeft Cache" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="102766"/>
+<sample t="3" lt="0" ts="1263460851174" s="true" lb="Echantillon Débogage" rc="" rm="" tn="Thread Group 1-1" dt="text" by="664"/>
+
+</testResults>
